@@ -1,16 +1,17 @@
 {
   "name": "@ignite-ui/tokens",
   "version": "1.0.0",
-  "description": "- [ ] Text\r - [ ] Heading\r - [ ] Box\r - [ ] Button\r - [ ] TextInput\r - [ ] TextArea\r - [ ] Checkbox\r - [ ] Avatar\r - [ ] MultiStep",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "build": "tsup packages/tokens/src/index.ts --format esm,cjs --dts",
+    "dev": "tsup packages/tokens/src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }
 }
