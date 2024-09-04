@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup packages/tokens/src/index.ts --format esm,cjs --dts",
-    "dev": "tsup packages/tokens/src/index.ts --format esm,cjs --dts --watch"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
   "author": "",
