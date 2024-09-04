@@ -16,4 +16,4 @@
 `npm run build`
 
 ## Build with monitoring changes
-`npm run watch`
+`npm run dev`
