@@ -14,9 +14,9 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -31,6 +31,7 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@storybook/theming": "^8.3.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
