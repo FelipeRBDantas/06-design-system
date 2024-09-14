@@ -1,17 +1,22 @@
 {
-  "name": "docs",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@ignite-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev-vite": "vite",
+    "build-vite": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "dependencies": {
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
