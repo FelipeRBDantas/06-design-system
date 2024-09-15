@@ -4,7 +4,7 @@ import { getContrast } from "polished";
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => (
-    <div key={key} style={{ backgroundColor: color, padding: "2rem" }}>
+    <div key={ key } style={{ backgroundColor: color, padding: "2rem" }}>
       <div 
         style={{ 
           display: 'flex', 
@@ -13,8 +13,8 @@ export function ColorsGrid() {
           color: getContrast(color, '#FFF') > 3.5 ? '#FFF' : '#000' 
         }}
       >
-        <strong>${key}</strong>
-        <span>{color}</span>
+        <strong>${ key }</strong>
+        <span>{ color }</span>
       </div>
     </div>
   ));
