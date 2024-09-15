@@ -3,33 +3,33 @@ import { create } from '@storybook/theming';
 export default create({
   base: 'dark',
 
-  fontBase: '"Open Sans", sans-serif',
+  fontBase: '"Source Sans Pro", sans-serif',
   fontCode: 'monospace',
 
-  brandTitle: 'Ignite UI',
-  brandUrl: 'https://example.com.br',
+  brandTitle: 'Forest UI',
+  brandUrl: 'https://example.com',
   brandImage: 'https://storybook.js.org/images/placeholders/350x150.png',
   brandTarget: '_self',
 
-  colorPrimary: '#00B37E',
-  colorSecondary: '#7C7C8A',
+  colorPrimary: '#00FF85', // Verde vibrante
+  colorSecondary: '#007F5F', // Verde floresta
 
-  appBg: '#00291D',
-  appContentBg: '#00291D',
-  appPreviewBg: '#00291D',
-  appBorderColor: '#015F43',
-  appBorderRadius: 4,
+  appBg: '#002B36', // Fundo do app verde escuro
+  appContentBg: '#002B36',
+  appPreviewBg: '#002B36',
+  appBorderColor: '#007F5F', // Borda verde escura
+  appBorderRadius: 8,
 
-  textInverseColor: '#10162F',
-  textColor: '#ffffff',
+  textInverseColor: '#E6FFFA', // Texto claro sobre fundo escuro
+  textColor: '#FFFFFF',
 
-  barTextColor: '#ffffff',
-  barSelectedColor: '#00291D',
-  barHoverColor: '#00291D',
-  barBg: '#015F43',
+  barTextColor: '#FFFFFF',
+  barSelectedColor: '#00FF85', // Barra selecionada verde
+  barHoverColor: '#007F5F', // Cor da barra ao passar o mouse
+  barBg: '#004D40', // Fundo da barra verde escuro
 
-  inputBg: '#015F43',
-  inputBorder: '#015F43',
-  inputTextColor: '#ffffff',
-  inputBorderRadius: 2,
+  inputBg: '#004D40', // Fundo dos inputs verde escuro
+  inputBorder: '#007F5F',
+  inputTextColor: '#FFFFFF',
+  inputBorderRadius: 5,
 });
