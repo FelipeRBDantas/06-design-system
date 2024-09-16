@@ -1,8 +1,8 @@
 # Components
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box
+- [x] Box
+- [x] Text
+- [x] Heading
 - [ ] Button
 - [ ] TextInput
 - [ ] TextArea
@@ -26,16 +26,16 @@ To create the storybook, the following command was executed:
 
 `npx sb init --builder @storybook/builder-vite --type react --package-manager=npm`
 
-Para rodar o storybook é com base no seguinte script:
+To run the entire project in Dev, run:
 
 `npm run storybook dev -p 6006 --initial-path=/onboarding --quiet`
 
 ## Run
 
-Para rodar o projeto todo em Dev, execute:
+To run the entire project in Dev, run:
 
 `npm run dev`
 
-Para gerar a Build de todo o projeto, execute:
+To generate the Build of the entire project, run:
 
 `npm run build`
