@@ -16,4 +16,13 @@ export const CustomTag: StoryObj<HeadingProps> = {
     children: 'H1 Heading',
     as: 'h1',
   },
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'By default the heading always renders an `h2`, but we can change this with the `as` property.',
+      },
+    },
+  },
 }
