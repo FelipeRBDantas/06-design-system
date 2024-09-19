@@ -1,6 +1,6 @@
-import { VariantProps } from '@stitches/react'
+import { ElementType, ReactNode } from 'react'
 
-import { ComponentProps } from '../types'
+import { ComponentProps, VariantProps } from '@stitches/react'
 
 import { styled } from '../styles'
 
@@ -11,6 +11,9 @@ export const Box = styled('div', {
   border: '1px solid $gray600',
 })
 
-export interface BoxComponentProps extends ComponentProps<typeof Box> {}
-
-export interface BoxProps extends VariantProps<BoxComponentProps> {}
+export interface BoxProps
+  extends ComponentProps<typeof Box>,
+    VariantProps<typeof Box> {
+  as?: ElementType
+  children?: ReactNode
+}

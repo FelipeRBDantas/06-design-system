@@ -1,6 +1,6 @@
-import { VariantProps } from '@stitches/react'
+import { ElementType, ReactNode } from 'react'
 
-import { ComponentProps } from '../types'
+import { ComponentProps, VariantProps } from '@stitches/react'
 
 import { styled } from '../styles'
 
@@ -29,6 +29,9 @@ export const Heading = styled('h2', {
   },
 })
 
-export interface HeadingComponentProps extends ComponentProps<typeof Heading> {}
-
-export interface HeadingProps extends VariantProps<HeadingComponentProps> {}
+export interface HeadingProps
+  extends ComponentProps<typeof Heading>,
+    VariantProps<typeof Heading> {
+  as?: ElementType
+  children?: ReactNode
+}

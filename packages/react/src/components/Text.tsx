@@ -1,6 +1,6 @@
-import { VariantProps } from '@stitches/react'
+import { ElementType, ReactNode } from 'react'
 
-import { ComponentProps } from '../types'
+import { ComponentProps, VariantProps } from '@stitches/react'
 
 import { styled } from '../styles'
 
@@ -33,6 +33,9 @@ export const Text = styled('p', {
   },
 })
 
-export interface TextComponentProps extends ComponentProps<typeof Text> {}
-
-export interface TextProps extends VariantProps<TextComponentProps> {}
+export interface TextProps
+  extends ComponentProps<typeof Text>,
+    VariantProps<typeof Text> {
+  as?: ElementType
+  children?: ReactNode
+}
