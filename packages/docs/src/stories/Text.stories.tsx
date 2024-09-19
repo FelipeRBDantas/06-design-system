@@ -17,4 +17,13 @@ export const CustomTag: StoryObj<TextProps> = {
     children: 'Strong Text',
     as: 'strong',
   },
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'By default the text always renders an `normal`, but we can change this with the `as` property.',
+      },
+    },
+  },
 }
