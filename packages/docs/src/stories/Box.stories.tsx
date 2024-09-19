@@ -5,12 +5,14 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: 
+    children: (
       <Text>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, repudiandae 
-        iusto nisi voluptate ex quisquam, tempore nostrum, odio aliquam numquam illum quam 
-        eum eligendi error consequatur atque. Voluptatem, consequatur quas.
-      </Text>,
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat,
+        repudiandae iusto nisi voluptate ex quisquam, tempore nostrum, odio
+        aliquam numquam illum quam eum eligendi error consequatur atque.
+        Voluptatem, consequatur quas.
+      </Text>
+    ),
   },
 } as Meta<BoxProps>
 

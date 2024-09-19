@@ -1,4 +1,4 @@
-import { ElementType, ReactNode } from 'react'
+import { ElementType } from 'react'
 
 import { ComponentProps, VariantProps } from '@stitches/react'
 
@@ -33,5 +33,4 @@ export interface HeadingProps
   extends ComponentProps<typeof Heading>,
     VariantProps<typeof Heading> {
   as?: ElementType
-  children?: ReactNode
 }

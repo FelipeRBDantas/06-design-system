@@ -1,4 +1,4 @@
-import { ElementType, ReactNode } from 'react'
+import { ElementType } from 'react'
 
 import { ComponentProps, VariantProps } from '@stitches/react'
 
@@ -37,5 +37,4 @@ export interface TextProps
   extends ComponentProps<typeof Text>,
     VariantProps<typeof Text> {
   as?: ElementType
-  children?: ReactNode
 }

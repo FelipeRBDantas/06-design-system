@@ -5,7 +5,8 @@ export default {
   title: 'Typography/Text',
   component: Text,
   args: {
-    children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto, aut ipsa, ratione quasi labore veritatis esse, dolor necessitatibus minima earum. Quae delectus expedita assumenda voluptates hic temporibus veniam aliquam?',
+    children:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto, aut ipsa, ratione quasi labore veritatis esse, dolor necessitatibus minima earum. Quae delectus expedita assumenda voluptates hic temporibus veniam aliquam?',
   },
 } as Meta<TextProps>
 

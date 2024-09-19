@@ -1,4 +1,4 @@
-import { ElementType, ReactNode } from 'react'
+import { ElementType } from 'react'
 
 import { ComponentProps, VariantProps } from '@stitches/react'
 
@@ -15,5 +15,4 @@ export interface BoxProps
   extends ComponentProps<typeof Box>,
     VariantProps<typeof Box> {
   as?: ElementType
-  children?: ReactNode
 }
