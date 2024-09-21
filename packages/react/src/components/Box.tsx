@@ -1,6 +1,6 @@
-import { ElementType } from 'react'
+import { ComponentProps, ElementType } from 'react'
 
-import { ComponentProps, VariantProps } from '@stitches/react'
+import { VariantProps } from '@stitches/react'
 
 import { styled } from '../styles'
 
