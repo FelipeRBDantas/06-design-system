@@ -1,6 +1,8 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@ignite-ui/react'
 
+import { ArrowRight } from 'phosphor-react'
+
 export default {
   title: 'Form/Button',
   component: Button,
@@ -53,6 +55,41 @@ export const Small: StoryObj<ButtonProps> = {
       description: {
         story:
           'By default, the button always renders as `md`, but we can change this with the `size` property. In this case, set it to `sm` for smaller sizes.',
+      },
+    },
+  },
+}
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        Próximo passo
+        <ArrowRight weight="bold" />
+      </>
+    ),
+  },
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'By default, the button always renders with the `children` property being text, but we can change this by assigning text to an icon.',
+      },
+    },
+  },
+}
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: {
+    disabled: true,
+  },
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'By default, the button always renders as `enabled`, but we can change this with the `disabled` property. In this case, set it to `disabled` for disabled buttons.',
       },
     },
   },
