@@ -3,11 +3,11 @@
 - [x] Box
 - [x] Text
 - [x] Heading
-- [ ] Button
-- [ ] TextInput
-- [ ] TextArea
+- [x] Button
+- [x] TextInput
+- [x] TextArea
 - [ ] Checkbox
-- [ ] Avatar
+- [x] Avatar
 - [ ] MultiStep
 
 # Build
