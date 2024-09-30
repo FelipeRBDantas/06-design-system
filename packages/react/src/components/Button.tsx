@@ -96,3 +96,5 @@ export interface ButtonProps
     VariantProps<typeof Button> {
   as?: ElementType
 }
+
+Button.displayName = 'Button'

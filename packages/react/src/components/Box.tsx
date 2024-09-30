@@ -16,3 +16,5 @@ export interface BoxProps
     VariantProps<typeof Box> {
   as?: ElementType
 }
+
+Box.displayName = 'Box'

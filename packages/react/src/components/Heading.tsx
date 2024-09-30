@@ -34,3 +34,5 @@ export interface HeadingProps
     VariantProps<typeof Heading> {
   as?: ElementType
 }
+
+Heading.displayName = 'Heading'

@@ -38,3 +38,5 @@ export interface TextProps
     VariantProps<typeof Text> {
   as?: ElementType
 }
+
+Text.displayName = 'Text'
