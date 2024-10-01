@@ -9,6 +9,9 @@ export default {
   component: Button,
   args: {
     children: 'Send',
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
   },
   argTypes: {
     variant: {
@@ -18,7 +21,7 @@ export default {
       },
     },
     size: {
-      options: ['sm', 'md', 'lg'],
+      options: ['sm', 'md'],
       control: {
         type: 'inline-radio',
       },
