@@ -6,6 +6,13 @@ export default {
   title: 'Form/Text Area',
   component: TextArea,
   args: {},
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (

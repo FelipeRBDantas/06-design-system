@@ -8,6 +8,14 @@ export default {
   args: {
     children: 'Custom title',
   },
+  argTypes: {
+    as: {
+      options: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}

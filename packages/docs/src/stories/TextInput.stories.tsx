@@ -6,6 +6,23 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
   args: {},
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    prefix: {
+      control: {
+        type: 'text',
+      },
+    },
+    placeholder: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (

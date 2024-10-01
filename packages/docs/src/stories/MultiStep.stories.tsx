@@ -9,6 +9,13 @@ export default {
     size: 4,
     currentStep: 1,
   },
+  argTypes: {
+    size: {
+      control: {
+        type: 'number',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
