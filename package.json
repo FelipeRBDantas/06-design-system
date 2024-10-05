@@ -1,15 +1,19 @@
 {
-  "name": "ignite-ui",
+  "name": "feliperbdantas-ignite-ui",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!@feliperbdantas-ignite-ui/docs && changeset publish"
   },
   "packageManager": "npm@8.19.2",
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "turbo": "^2.1.2"
   }
 }

@@ -1,10 +1,11 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@feliperbdantas-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "author": "",
   "license": "MIT",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev-vite": "vite",
     "build-vite": "tsc -b && vite build",
@@ -15,10 +16,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@feliperbdantas-ignite-ui/eslint-config": "*",
+    "@feliperbdantas-ignite-ui/react": "*",
+    "@feliperbdantas-ignite-ui/tokens": "*",
+    "@feliperbdantas-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^8.3.5",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",

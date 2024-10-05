@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/tokens",
-  "version": "1.0.0",
+  "name": "@feliperbdantas-ignite-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
+    "@feliperbdantas-ignite-ui/eslint-config": "*",
+    "@feliperbdantas-ignite-ui/ts-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^5.2.2"
   }

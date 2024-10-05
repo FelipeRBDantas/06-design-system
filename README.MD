@@ -39,3 +39,15 @@ To run the entire project in Dev, run:
 To generate the Build of the entire project, run:
 
 `npm run build`
+
+To generate new publishing versions of packages using Changeset, run:
+
+`npm run changeset`
+
+`npm run versions-packages`
+
+`npm login`
+
+`npm whoami`
+
+`npm run release`
