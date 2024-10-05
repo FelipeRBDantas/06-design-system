@@ -10,6 +10,21 @@
 - [x] Avatar
 - [x] MultiStep
 
+## Tools
+
+:hammer_and_wrench: NodeJS
+:hammer_and_wrench: Javascript
+:hammer_and_wrench: Typescript
+:hammer_and_wrench: ReactJS
+:hammer_and_wrench: Vite
+:hammer_and_wrench: Turborepo
+:hammer_and_wrench: Eslint
+:hammer_and_wrench: Stitches
+:hammer_and_wrench: Storybook
+:hammer_and_wrench: Github Actions / CI/CD
+:hammer_and_wrench: Changesets
+:hammer_and_wrench: Vercel
+
 # Build
 
 ## Build without monitoring
@@ -39,6 +54,8 @@ To run the entire project in Dev, run:
 To generate the Build of the entire project, run:
 
 `npm run build`
+
+# Changesets
 
 To generate new publishing versions of packages using Changeset, run:
 
