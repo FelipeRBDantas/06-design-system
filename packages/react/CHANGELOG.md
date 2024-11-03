@@ -1,5 +1,11 @@
 # @feliperbdantas-ignite-ui/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Refactoring
+
 ## 2.1.0
 
 ### Minor Changes
