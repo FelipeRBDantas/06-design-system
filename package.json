@@ -10,7 +10,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "build-release": "turbo run build --filter=!@feliperbdantas-ignite-ui/docs",
-    "release": "turbo run changeset publish"
+    "release": "changeset publish"
   },
   "packageManager": "npm@8.19.2",
   "devDependencies": {
