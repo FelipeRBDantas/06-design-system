@@ -1,5 +1,11 @@
 # @feliperbdantas-ignite-ui/tokens
 
+## 2.3.0
+
+### Minor Changes
+
+- Refactoring
+
 ## 2.2.0
 
 ### Minor Changes
