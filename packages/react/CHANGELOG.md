@@ -1,5 +1,11 @@
 # @feliperbdantas-ignite-ui/react
 
+## 2.4.0
+
+### Minor Changes
+
+- Change Text Input Size
+
 ## 2.3.0
 
 ### Minor Changes
