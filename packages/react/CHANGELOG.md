@@ -1,5 +1,11 @@
 # @feliperbdantas-ignite-ui/react
 
+## 2.5.0
+
+### Minor Changes
+
+- Change MultiStep
+
 ## 2.4.0
 
 ### Minor Changes

@@ -25,9 +25,7 @@ export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
               key={step}
               active={currentStep >= step}
               completed={currentStep > step}
-            >
-              {step}
-            </Step>
+            ></Step>
           )
         })}
       </Steps>
